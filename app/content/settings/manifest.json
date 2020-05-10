@@ -1,8 +1,8 @@
 {
-  "name": "Bluise",
-  "shortName": "Bluise",
-  "description": "A Nuxt.js & Netlify CMS boilerplate.",
-  "themeColor": "#0b3765",
+  "name": "ChopStix",
+  "shortName": "ChopStix",
+  "description": "ChopStix Food Delivery",
+  "themeColor": "#e84033",
   "backgroundColor": "#ffffff",
   "lang": "en"
 }
