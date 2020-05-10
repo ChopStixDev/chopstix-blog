@@ -1,10 +1,10 @@
 {
   "title": "Home",
   "titleTemplate": "| Bluise",
-  "welcomeText": "# Yo, I'm Bluise - A Nuxt.js & Netlify CMS boilerplate.\n\nAuthentic cred hoodie hashtag selfies. Raclette banjo cardigan cred. Kitsch XOXO lomo polaroid. Knausgaard put a bird on it four dollar toast leggings typewriter asymmetrical.",
+  "welcomeText": "# We are ChopStix - True Chinese and Asian Food made easy.\n\nAuthentic Chinese cuisine right at home. Quick bite with just a few taps. Best sushi in town. You said noodles? Dumplings for days!\n\nWe are committed to serving the best interests of our shareholders, partners and customers.",
   "logo": "/images/uploads/icon-150.png",
   "icon": "/images/uploads/icon-150.png",
   "loadingColor": "#0b3765",
-  "seoDescription": "A quickstart for Nuxt & Netlify CMS",
+  "seoDescription": "Chinese Delivery and many other Asian Food Delivery",
   "seoMetaImage": ""
 }
