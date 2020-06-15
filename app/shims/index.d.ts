@@ -15,17 +15,6 @@ interface Post {
   seoMetaImage?: string;
 }
 
-interface Job {
-  title: string;
-  slug?: string;
-  excerpt?: string;
-  content: string;
-  publishedAt: string;
-  featuredImage?: string;
-  seoDescription?: string;
-  seoMetaImage?: string;
-}
-
 interface Page {
   title: string;
   subtitle?: string;

@@ -59,16 +59,10 @@ const nuxtConfig: Configuration = {
     subFolders: false,
 
     routes: [
-      ...fg
-        .sync([
-          './app/content/blog/**.json',
-          './app/content/pages/**.json',
-          './app/content/jobs/**.json',
-        ])
-        .map((url) => ({
-          route: url.replace(/^.\/app\/content(\/pages)?|.json$/gi, ''),
-          payload: require(url),
-        })),
+      ...fg.sync(['./app/content/blog/**.json', './app/content/pages/**.json']).map(url => ({
+        route: url.replace(/^.\/app\/content(\/pages)?|.json$/gi, ''),
+        payload: require(url),
+      })),
     ],
   },
 
