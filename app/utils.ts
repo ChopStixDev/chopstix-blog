@@ -1,8 +1,5 @@
 export function createExcerpt({ text, length = 150 }: { text: string; length?: number }): string {
-  return text
-    .split('', length)
-    .concat(['...'])
-    .join('');
+  return text.split('', length).concat(['...']).join('');
 }
 
 export async function getContent({ context, prefix }): Promise<{ slug: string; title: string }[]> {
@@ -28,6 +25,9 @@ export async function getContent({ context, prefix }): Promise<{ slug: string; t
       slug,
       title: entry.title,
       ...(prefix === 'blog' && {
+        excerpt: createExcerpt({ text: entry.content }),
+      }),
+      ...(prefix === 'jobs' && {
         excerpt: createExcerpt({ text: entry.content }),
       }),
     });
